@@ -1,0 +1,23 @@
+{
+  "name": "geo-math-utils",
+  "version": "0.0.4",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dreamflyer/geo-math-utils.git"
+  },
+  "scripts": {
+    "compile": "rimraf dist && tsc",
+    "build": "npm install && npm run compile"
+  },
+  "dependencies": {
+    "typescript-compiler": "1.4.1-2",
+    "geodesy": "1.1.1"
+  },
+  "typings": "./dist/index.d.ts",
+  "devDependencies": {
+    "typings": "^0.5.1",
+    "typescript": "1.8.7",
+    "rimraf": "*"
+  }
+}
